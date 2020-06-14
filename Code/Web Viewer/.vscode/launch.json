@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/start.js",
+            "program": "${workspaceFolder}/code/Web Viewer/start.js",
             "env": {
                 "FORGE_CLIENT_ID": "ob87PNbFaBIkLIlrdkM2F7WjPGzibbyW",
                 "FORGE_CLIENT_SECRET": "eU6QGe3K9LJVC2Xe",
