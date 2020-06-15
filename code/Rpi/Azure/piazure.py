@@ -3,6 +3,7 @@
 
 import random
 import time
+from sensor import DS18B20, SHT20
 
 # Using the Python Device SDK for IoT Hub:
 #   https://github.com/Azure/azure-iot-sdk-python
@@ -14,9 +15,14 @@ from azure.iot.device import IoTHubDeviceClient, Message
 # az iot hub device-identity show-connection-string --hub-name {YourIoTHubName} --device-id MyNodeDevice --output table
 CONNECTION_STRING = "HostName=rpisensor.azure-devices.net;DeviceId=rpisensor;SharedAccessKey=JXwqgwWAUQXmigmwjDwBDZrQVEMsgkSoet4l6pwIq4o="
 
+#Sensor info
+
+ds = DS18B20('28-011458c437aa')
+sht = SHT20(1, 0x40)
+
 # Define the JSON message to send to IoT Hub.
-TEMPERATURE = 20.0
-HUMIDITY = 60
+TEMPERATURE = sht.temperature()
+HUMIDITY = sht.humidity()
 MSG_TXT = '{{"temperature": {temperature},"humidity": {humidity}}}'
 
 def iothub_client_init():
@@ -31,8 +37,8 @@ def iothub_client_telemetry_sample_run():
         print ( "IoT Hub device sending periodic messages, press Ctrl-C to exit" )
         while True:
             # Build the message with simulated telemetry values.
-            temperature = TEMPERATURE + (random.random() * 15)
-            humidity = HUMIDITY + (random.random() * 20)
+            temperature = TEMPERATURE.C
+            humidity = HUMIDITY.RH
             msg_txt_formatted = MSG_TXT.format(temperature=temperature, humidity=humidity)
             message = Message(msg_txt_formatted)
 
@@ -47,7 +53,7 @@ def iothub_client_telemetry_sample_run():
             print( "Sending message: {}".format(message) )
             client.send_message(message)
             print ( "Message successfully sent" )
-            time.sleep(3)
+            time.sleep(10)
 
     except KeyboardInterrupt:
         print ( "IoTHubClient sample stopped" )
