@@ -44,6 +44,9 @@ def iothub_client_telemetry_sample_run():
 
             # Add a custom application property to the message.
             # An IoT hub can filter on these properties without access to the message body.
+            message.custom_properties["temperature"] = temperature
+            message.custom_properties["humidity"] = humidity
+
             if temperature > 30:
               message.custom_properties["temperatureAlert"] = "true"
             else:
