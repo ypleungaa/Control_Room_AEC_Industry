@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/code/Web Viewer/start.js",
+            "program": "${workspaceFolder}/Code/Web Viewer(BIM 360)/start.js",
             "env": {
                 "FORGE_CLIENT_ID": "ob87PNbFaBIkLIlrdkM2F7WjPGzibbyW",
                 "FORGE_CLIENT_SECRET": "eU6QGe3K9LJVC2Xe",
