@@ -8,13 +8,13 @@ function launchViewer(urn, viewableId) {
     getAccessToken: getForgeToken,
     api: 'derivativeV2' + (atob(urn.replace('_', '/')).indexOf('emea') > -1 ? '_EU' : '') // handle BIM 360 US and EU regions
   };
+  
+  var documentId = 'urn:' + urn;
 
-  Autodesk.Viewing.Initializer(options, () => {
-    viewer = new Autodesk.Viewing.GuiViewer3D(document.getElementById('forgeViewer'), { extensions: [ 'Autodesk.DocumentBrowser'] });
-    viewer.start();
-    var documentId = 'urn:' + urn;
-    Autodesk.Viewing.Document.load(documentId, onDocumentLoadSuccess, onDocumentLoadFailure);
-
+  Autodesk.Viewing.Initializer(options, function onInitialized() {
+    viewerApp = new Autodesk.Viewing.ViewingApplication('forgeViewer');
+    viewerApp.registerViewer(viewerApp.k3D, Autodesk.Viewing.Private.GuiViewer3D);
+    viewerApp.loadDocument(documentId, onDocumentLoadSuccess, onDocumentLoadFailure);
   });
   
   // *******************************************
@@ -54,16 +54,7 @@ function launchViewer(urn, viewableId) {
     // if a viewableId was specified, load that view, otherwise the default view
     var viewables = (viewableId ? doc.getRoot().findByGuid(viewableId) : doc.getRoot().getDefaultGeometry());
     viewer.loadDocumentNode(doc, viewables).then(i => {
-      // documented loaded, any action?
-      var ViewerInstance = new CustomEvent("viewerinstance", {detail: {viewer: viewer}});      
-        document.dispatchEvent(ViewerInstance);
-        // var LoadExtensionEvent = new CustomEvent("loadextension", {
-        //   detail: {
-        //     extension: "Extension1",
-        //     viewer: viewer
-        //   }
-        // });      
-        // document.dispatchEvent(LoadExtensionEvent);
+      // any additional action here?
     });
   }
 
@@ -80,6 +71,7 @@ function getForgeToken(callback) {
     });
   });
 }
+
 
 
 // function triggerPanelUpdate() {
@@ -102,6 +94,8 @@ function getForgeToken(callback) {
 //     }
 //   });
 // }
+
+
 
 // function onMouseClick(event) {
   
