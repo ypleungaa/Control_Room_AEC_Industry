@@ -18,6 +18,7 @@
 class BasicSkeleton extends Autodesk.Viewing.Extension {
     constructor(viewer, options) {
         super(viewer, options);
+        options = options || {};
         this._group = null;
         this._button = null;
     }
