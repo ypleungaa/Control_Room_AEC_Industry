@@ -20,7 +20,7 @@ class IconMarkupExtension extends Autodesk.Viewing.Extension {
         super(viewer, options);
         this._group = null;
         this._button = null;
-        this._icons = options.icons || [];
+        this._icons = [{"dbId":4688,"label":"30C","css":"fas fa-thermometer-full"},{"dbId":2514,"label":"35C","css":"fas fa-thermometer-full"},{"dbId":4670,"label":"45C","css":"fas fa-thermometer-empty"}];
     }
 
     load() {
@@ -72,8 +72,8 @@ class IconMarkupExtension extends Autodesk.Viewing.Extension {
             this._button.setState(this._enabled ? 0 : 1);
 
         };
-        this._button.setToolTip(this.options.button.tooltip);
-        this._button.container.children[0].classList.add('fas', this.options.button.icon);
+        this._button.setToolTip("Show Temperature");
+        this._button.container.children[0].classList.add('fas', "fa-thermometer-half");
         this._group.addControl(this._button);
     }
 

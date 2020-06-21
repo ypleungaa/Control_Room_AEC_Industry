@@ -38,13 +38,6 @@ function onDocumentLoadSuccess(doc) {
     // documented loaded, any action?
     var ViewerInstance = new CustomEvent("viewerinstance", {detail: {viewer: viewer}});      
       document.dispatchEvent(ViewerInstance);
-      // var LoadExtensionEvent = new CustomEvent("loadextension", {
-      //   detail: {
-      //     extension: "Extension1",
-      //     viewer: viewer
-      //   }
-      // });      
-      // document.dispatchEvent(LoadExtensionEvent);
   });
 }
 
