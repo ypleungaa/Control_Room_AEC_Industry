@@ -10,8 +10,8 @@
             "name": "Launch Program",
             "program": "${workspaceFolder}/Code/Web Viewer(BIM 360)/start.js",
             "env": {
-                "FORGE_CLIENT_ID": "ob87PNbFaBIkLIlrdkM2F7WjPGzibbyW",
-                "FORGE_CLIENT_SECRET": "eU6QGe3K9LJVC2Xe",
+                "FORGE_CLIENT_ID": "PCIt39nRiblumBYmnSziTjMW9IfxTTF1",
+                "FORGE_CLIENT_SECRET": "UajOIdN2wD7ScOxk",
                 "FORGE_CALLBACK_URL": "http://localhost:3000/api/forge/callback/oauth"
             }
         }

@@ -30,6 +30,36 @@ function launchViewer(urn) {
     var documentId = 'urn:' + urn;
     Autodesk.Viewing.Document.load(documentId, onDocumentLoadSuccess, onDocumentLoadFailure);
   });
+
+  function onMouseClick(e) {
+  
+    var screenPoint = {
+        x: e.clientX,
+        y: e.clientY
+    };
+  
+    console.log(screenPoint.x)
+  
+    var n = normalizeCoords(screenPoint);
+  
+    var hitTest1 = NOP_VIEWER.impl.hitTest(screenPoint.x, screenPoint.y, true);
+  
+    var hitTest = NOP_VIEWER.utilities.getHitPoint(
+      screenPoint.x,
+      screenPoint.y);
+  
+      if (hitTest1) {
+        console.log(hitTest1.intersectPoint);
+        drawPushpin({
+          x: hitTest1.intersectPoint.x,
+          y: hitTest1.intersectPoint.y,
+          z: hitTest1.intersectPoint.z
+        });
+      }
+  
+  }
+
+
 }
 
 function onDocumentLoadSuccess(doc) {
@@ -39,11 +69,17 @@ function onDocumentLoadSuccess(doc) {
     var ViewerInstance = new CustomEvent("viewerinstance", {detail: {viewer: viewer}});      
       document.dispatchEvent(ViewerInstance);
   });
+
 }
+
+
+
 
 function onDocumentLoadFailure(viewerErrorCode) {
   console.error('onDocumentLoadFailure() - errorCode:' + viewerErrorCode);
 }
+
+
 
 function getForgeToken(callback) {
   fetch('/api/forge/oauth/token').then(res => {
