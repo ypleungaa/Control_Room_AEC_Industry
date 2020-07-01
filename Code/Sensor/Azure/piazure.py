@@ -13,7 +13,7 @@ from azure.iot.device import IoTHubDeviceClient, Message
 # The device connection string to authenticate the device with your IoT hub.
 # Using the Azure CLI:
 # az iot hub device-identity show-connection-string --hub-name {YourIoTHubName} --device-id MyNodeDevice --output table
-CONNECTION_STRING = "HostName=rpisensor.azure-devices.net;DeviceId=rpisensor;SharedAccessKey=JXwqgwWAUQXmigmwjDwBDZrQVEMsgkSoet4l6pwIq4o="
+CONNECTION_STRING = "HostName=ucliotproject.azure-devices.net;DeviceId=sensorsql;SharedAccessKey=2Y3cIJNZAXsR4nu0SVE+fUy1MuXwtizbe0sdVId1CsE="
 
 #Sensor info
 
