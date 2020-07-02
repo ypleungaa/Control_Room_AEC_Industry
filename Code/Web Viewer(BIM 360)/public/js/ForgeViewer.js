@@ -31,34 +31,33 @@ function launchViewer(urn) {
     Autodesk.Viewing.Document.load(documentId, onDocumentLoadSuccess, onDocumentLoadFailure);
   });
 
-  function onMouseClick(e) {
+  // function onMouseClick(e) {
   
-    var screenPoint = {
-        x: e.clientX,
-        y: e.clientY
-    };
+  //   var screenPoint = {
+  //       x: e.clientX,
+  //       y: e.clientY
+  //   };
   
-    console.log(screenPoint.x)
+  //   console.log(screenPoint.x)
   
-    var n = normalizeCoords(screenPoint);
+  //   var n = normalizeCoords(screenPoint);
   
-    var hitTest1 = NOP_VIEWER.impl.hitTest(screenPoint.x, screenPoint.y, true);
+  //   var hitTest1 = NOP_VIEWER.impl.hitTest(screenPoint.x, screenPoint.y, true);
   
-    var hitTest = NOP_VIEWER.utilities.getHitPoint(
-      screenPoint.x,
-      screenPoint.y);
+  //   var hitTest = NOP_VIEWER.utilities.getHitPoint(
+  //     screenPoint.x,
+  //     screenPoint.y);
   
-      if (hitTest1) {
-        console.log(hitTest1.intersectPoint);
-        drawPushpin({
-          x: hitTest1.intersectPoint.x,
-          y: hitTest1.intersectPoint.y,
-          z: hitTest1.intersectPoint.z
-        });
-      }
+  //     if (hitTest1) {
+  //       console.log(hitTest1.intersectPoint);
+  //       drawPushpin({
+  //         x: hitTest1.intersectPoint.x,
+  //         y: hitTest1.intersectPoint.y,
+  //         z: hitTest1.intersectPoint.z
+  //       });
+  //     }
   
-  }
-
+  // }
 
 }
 
@@ -72,14 +71,9 @@ function onDocumentLoadSuccess(doc) {
 
 }
 
-
-
-
 function onDocumentLoadFailure(viewerErrorCode) {
   console.error('onDocumentLoadFailure() - errorCode:' + viewerErrorCode);
 }
-
-
 
 function getForgeToken(callback) {
   fetch('/api/forge/oauth/token').then(res => {
