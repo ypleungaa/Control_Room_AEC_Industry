@@ -3,7 +3,7 @@
 
 import random
 import time
-from sensor import DS18B20, SHT20
+from sensor import SHT20
 
 # Using the Python Device SDK for IoT Hub:
 #   https://github.com/Azure/azure-iot-sdk-python
@@ -17,13 +17,13 @@ CONNECTION_STRING = "HostName=ucliotproject.azure-devices.net;DeviceId=sensorsql
 
 #Sensor info
 
-ds = DS18B20('28-011458c437aa')
 sht = SHT20(1, 0x40)
 
 # Define the JSON message to send to IoT Hub.
-TEMPERATURE = sht.temperature()
-HUMIDITY = sht.humidity()
+
 MSG_TXT = '{{"temperature": {temperature},"humidity": {humidity}}}'
+
+# Code for connecting to AZURE Clound services
 
 def iothub_client_init():
     # Create an IoT Hub client
@@ -37,6 +37,8 @@ def iothub_client_telemetry_sample_run():
         print ( "IoT Hub device sending periodic messages, press Ctrl-C to exit" )
         while True:
             # Build the message with simulated telemetry values.
+            TEMPERATURE = sht.temperature()
+            HUMIDITY = sht.humidity()
             temperature = TEMPERATURE.C
             humidity = HUMIDITY.RH
             msg_txt_formatted = MSG_TXT.format(temperature=temperature, humidity=humidity)
@@ -56,7 +58,7 @@ def iothub_client_telemetry_sample_run():
             print( "Sending message: {}".format(message) )
             client.send_message(message)
             print ( "Message successfully sent" )
-            time.sleep(10)
+            time.sleep(3)
 
     except KeyboardInterrupt:
         print ( "IoTHubClient sample stopped" )

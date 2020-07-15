@@ -31,8 +31,6 @@ function launchViewer(urn) {
     Autodesk.Viewing.Document.load(documentId, onDocumentLoadSuccess, onDocumentLoadFailure);
   });
 
-
-
 }
 
 function onDocumentLoadSuccess(doc) {
@@ -53,14 +51,10 @@ function onDocumentLoadSuccess(doc) {
     }; 
 
     let viewer_pos = NOP_VIEWER.container.getBoundingClientRect();
-    var hitTest = NOP_VIEWER.impl.hitTest(screenPoint.x - viewer_pos.x,
-                                                            screenPoint.y - viewer_pos.y,true); 
-
-    var hitTest = NOP_VIEWER.impl.hitTest(screenPoint.x,screenPoint.y,true); 
+    var hitTest = NOP_VIEWER.impl.hitTest(screenPoint.x - viewer_pos.x, screenPoint.y - viewer_pos.y,true); 
 
     if (hitTest) {
         console.log(hitTest.intersectPoint);
-        alert(hitTest.intersectPoint.x + ' ' + ' ' + hitTest.intersectPoint.y + ' ' + hitTest.intersectPoint.z);
         drawPushpin({
           x: hitTest.intersectPoint.x,
           y: hitTest.intersectPoint.y,
@@ -70,9 +64,15 @@ function onDocumentLoadSuccess(doc) {
       
   }
 
+  NOP_VIEWER.addEventListener(Autodesk.Viewing.SELECTION_CHANGED_EVENT, function (e) {
+    e.dbIdArray.forEach(function (dbId) {
+        NOP_VIEWER.getProperties(dbId, function (props) {
+            console.log(props)
+        })
+    })
+  });
+  
 }
-
-
 
 function drawPushpin(pushpinModelPt){  
 
