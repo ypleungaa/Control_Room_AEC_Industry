@@ -1,0 +1,11 @@
+1. can you explain more on the sensor ID part?
+
+(I have successfully connect my sensor to azure blob, but not sure how to display it on the model.... add the custom properties to viewer?, not sure how the IoT Hubs page to do it)
+
+2. I would like to add the custom property but I am not sure why I can not add....
+(no sure why nth new.....)
+
+
+
+3. Can you help me open my BIM360 API , Carol ignore my email.....
+
