@@ -1,0 +1,140 @@
+id,location,investigation,investigation_level,date_of_accident,date_of_report,time_of_accident,activity,ai_category,body_part,nature_of_injury,type_of_contact,no_of_days_lost,target_closure_date,actual_closure_date
+1,1st floor,Yes,Medium,10-25-2016,10-25-2016,4:30:00 PM,Concreting,Injury,Hand,Cut / Laceration,"Struck by a falling, flying or moving object",1,06-06-17,06-05-17
+2,1st floor,Yes,Low,11-21-2016,11-21-2016,8:40:00 AM,Rebar Fixing,Injury,Hand,Cut / Laceration,"Slip, trip or fall on same level",0,06-07-17,06-07-17
+3,1st floor,Yes,Medium,12-20-2016,12-20-2016,4:30:00 PM,Installation of Building service utilities,Injury,Hand,Puncture / penetrations injury ,Contact with moving machinery / power equipment,0,06-08-17,06-08-17
+4,1st floor,Yes,Low,1-18-2017,1-18-2017,11:20:00 PM,Painting,Injury,Leg,Sprain / Strain ,"Slip, trip or fall on same level",0,06-10-17,06-10-17
+5,1st floor,Yes,Low,2-15-2017,2-15-2017,12:00:00 PM,Painting,Injury,Fingers / Thumbs,Cut / Laceration,"Struck by a falling, flying or moving object",0,06-11-17,06-11-17
+6,1st floor,No,Low,2-23-2017,2-23-2017,9:30:00 AM,Painting,Injury,Leg,Sprain / Strain ,"Slip, trip or fall on same level",0,06-12-17,06-12-17
+7,basement,No,Medium,2-23-2017,2-23-2017,9:45:00 AM,Painting,Injury,Torso,Bruise / Contusion,"Struck by a falling, flying or moving object",1,6-14-2017,6-14-2017
+8,basement,No,Low,3-29-2017,3-29-2017,12:00:00 AM,Painting,Injury,Foot / Ankle,Sprain / Strain ,"Slip, trip or fall on same level",0,6-16-2017,6-16-2017
+9,basement,Yes,Medium,03-11-17,03-11-17,11:30:00 AM,Painting,Injury,Leg,Sprain / Strain ,"Slip, trip or fall on same level",4,6-17-2017,6-22-2017
+10,basement,No,Low,3-27-2017,3-27-2017,10:00:00 AM,Concreting,Injury,Back / Buttocks,Sprain / Strain ,"Injured by carrying, handling or lifting",0,6-19-2017,6-19-2017
+11,1st floor,No,Low,3-31-2017,3-31-2017,1:20:00 PM,Rebar Fixing,Injury,Head,Concussion,"Struck by a falling, flying or moving object",0,6-20-2017,6-20-2017
+12,basement,No,Low,04-07-17,04-07-17,8:00:00 AM,Installation of Building service utilities,Injury,Hand,Bruise / Contusion,"Struck by a falling, flying or moving object",0,6-23-2017,6-23-2017
+13,basement,No,Low,5-15-2017,5-15-2017,7:55:00 AM,Installation of Building service utilities,Injury,Hand,Bruise / Contusion,"Slip, trip or fall on same level",0,07-03-17,07-03-17
+14,1st floor,Yes,Medium,5-17-2017,5-17-2017,9:30:00 AM,Installation of Building service utilities,Injury,Hand,Bruise / Contusion,"Struck by a falling, flying or moving object",0,07-04-17,07-04-18
+15,attic,No,Medium,5-22-2017,5-22-2017,9:30:00 AM,Installation of Building service utilities,Injury,Face,Cut / Laceration,Struck against a fixed or stationary object,0,07-05-17,07-05-17
+16,attic,No,Low,5-26-2017,5-26-2017,12:20:00 PM,Installation of Building service utilities,Injury,Fingers / Thumbs,Bruise / Contusion,Contact with moving machinery / power equipment,0,07-10-17,5-31-2017
+17,1st floor,No,Low,5-31-2017,5-31-2017,8:00:00 AM,Rebar Fixing,Injury,Face,Cut / Laceration,"Slip, trip or fall on same level",0,07-11-17,05-07-17
+18,attic,No,Low,05-12-17,05-12-17,11:30:00 AM,Installation of Building service utilities,Injury,Back / Buttocks,Sprain / Strain ,"Injured by carrying, handling or lifting",0,7-14-2017,07-06-17
+19,1st floor,Yes,Low,6-19-2017,6-19-2017,4:30:00 PM,Installation of Building service utilities,Injury,Eyes,Abrasion,Exposed to dust ,5,7-19-2017,7-19-2017
+20,attic,Yes,Medium,6-24-2017,6-24-2017,8:00:00 AM,Installation of Building service utilities,Road Traffic Accidents,Arm,Abrasion,"Struck by a falling, flying or moving object",0,7-20-2017,7-20-2017
+21,1st floor,No,Low,6-27-2017,6-27-2017,2:00:00 PM,Installation of Building service utilities,Injury,Back / Buttocks,Bruise / Contusion,"Slip, trip or fall on same level",0,7-21-2017,6-27-2017
+22,attic,Yes,Low,07-05-17,07-05-17,12:00:00 PM,Rebar Fixing,Injury,Fingers / Thumbs,Fracture ,"Injured by carrying, handling or lifting",0,7-24-2017,7-24-2017
+23,1st floor,Yes,Low,07-11-17,07-11-17,12:00:00 PM,Installation of Building service utilities,Injury,Arm,Sprain / Strain ,"Injured by carrying, handling or lifting",2,7-26-2017,7-26-2017
+24,basement,Yes,Low,7-17-2017,7-17-2017,12:45:00 PM,Painting,Injury,Neck,Puncture / penetrations injury ,"Slip, trip or fall on same level",0,08-02-17,7-21-2017
+25,basement,No,Low,7-21-2017,7-21-2017,12:00:00 AM,Concreting,Injury,Face,Puncture / penetrations injury ,"Slip, trip or fall on same level",0,08-06-17,08-06-18
+26,basement,Yes,Low,7-25-2017,7-25-2017,4:30:00 PM,Rebar Fixing,Injury,Hand,Bruise / Contusion,"Struck by a falling, flying or moving object",0,08-09-17,08-09-17
+27,basement,No,Low,7-21-2017,7-21-2017,9:00:00 AM,Installation of Building service utilities,Injury,Back / Buttocks,Bruise / Contusion,"Slip, trip or fall on same level",0,8-14-2017,8-14-2017
+28,basement,No,Low,7-28-2017,7-28-2017,3:00:00 PM,Painting,Injury,Arm,Sprain / Strain ,"Slip, trip or fall on same level",0,8-15-2017,08-08-17
+29,basement,Yes,Low,08-07-17,08-07-17,3:30:00 PM,Painting,Injury,Leg,Sprain / Strain ,"Slip, trip or fall on same level",0,8-22-2017,8-22-2018
+30,basement,No,Low,08-08-17,08-08-17,4:30:00 PM,Painting,Injury,Eyes,Foreign Body,"Slip, trip or fall on same level",0,8-23-2017,8-23-2017
+31,basement,No,Low,08-11-17,08-11-17,4:00:00 PM,Painting,Utility Damage,N/a,N/a,Exposed to fire or combustion smoke and gases ,0,8-26-2017,08-11-17
+32,1st floor,No,Low,8-17-2017,8-17-2017,12:30:00 PM,Installation of Building service utilities,Injury,Foot / Ankle,Puncture / penetrations injury ,"Slip, trip or fall on same level",0,8-29-2017,8-18-2017
+33,attic,No,Low,8-17-2017,8-17-2017,10:30:00 AM,Installation of Building service utilities,Injury,Leg,Sprain / Strain ,"Injured by carrying, handling or lifting",0,09-01-17,09-01-17
+34,attic,Yes,Low,08-10-17,08-10-17,4:30:00 PM,Concreting,Injury,Back / Buttocks,Sprain / Strain ,"Injured by carrying, handling or lifting",15,09-02-17,9-20-2017
+35,attic,Yes,Low,8-15-2017,8-15-2017,7:50:00 AM,Rebar Fixing,Injury,Head,Bruise / Contusion,"Struck by a falling, flying or moving object",0,09-03-17,8-29-2017
+36,attic,Yes,Low,8-19-2017,8-19-2017,9:30:00 AM,Installation of Building service utilities,Injury,Back / Buttocks,Sprain / Strain ,"Slip, trip or fall on same level",0,09-04-17,8-25-2017
+37,attic,No,Low,8-30-2017,8-30-2017,9:50:00 AM,Concreting,Injury,Fingers / Thumbs,Bruise / Contusion,Contact with hot/cold materials or surfaces,0,09-08-17,09-08-18
+38,1st floor,No,Low,8-31-2017,8-31-2017,8:00:00 AM,Concreting,Injury,Foot / Ankle,Other,Other,0,09-09-17,8-31-2017
+39,attic,No,Low,08-02-17,08-02-17,10:15:00 AM,Concreting,Injury,Hand,Abrasion,"Slip, trip or fall on same level",0,09-10-17,08-02-17
+40,attic,No,Low,2-20-2017,2-20-2017,8:25:00 AM,Concreting,Injury,Hand,Cut / Laceration,Struck against a fixed or stationary object,0,09-12-17,2-22-2017
+41,attic,No,Low,2-20-2017,2-20-2017,4:25:00 PM,Concreting,Injury,Fingers / Thumbs,Cut / Laceration,Other,0,9-13-2017,2-20-2018
+42,1st floor,No,Low,7-14-2017,7-14-2017,5:10:00 PM,Concreting,Injury,Arm,Bruise / Contusion,Struck against a fixed or stationary object,0,9-14-2017,7-18-2017
+43,1st floor,No,Low,08-10-17,08-10-17,3:45:00 PM,Concreting,Injury,Back / Buttocks,Sprain / Strain ,"Slip, trip or fall on same level",0,9-15-2017,9-15-2017
+44,1st floor,No,Low,09-11-17,09-11-17,1:15:00 PM,Concreting,Illness,Torso,Other,Other,0,9-19-2017,9-19-2017
+45,1st floor,No,Low,9-14-2017,9-14-2017,9:30:00 AM,Concreting,Injury,Fingers / Thumbs,Cut / Laceration,"Struck by a falling, flying or moving object",0,9-25-2017,9-25-2017
+46,1st floor,Yes,Low,9-15-2017,9-15-2017,3:00:00 PM,Concreting,Injury,Face,Cut / Laceration,"Injured by carrying, handling or lifting",0,9-26-2017,9-26-2017
+47,1st floor,No,Low,9-14-2017,9-14-2017,7:00:00 AM,Concreting,Illness,Leg,Sprain / Strain ,"Slip, trip or fall on same level",0,9-29-2017,9-18-2017
+48,1st floor,Yes,Low,9-15-2017,9-15-2017,10:24:00 AM,Rebar Fixing,Injury,Leg,Sprain / Strain ,"Slip, trip or fall on same level",49,9-30-2017,9-29-2017
+49,1st floor,Yes,Low,9-14-2017,9-14-2017,8:00:00 AM,Installation of Building service utilities,Injury,Eyes,Foreign Body,"Struck by a falling, flying or moving object",1,10-02-17,10-02-17
+50,basement,No,Low,08-10-17,08-10-17,7:30:00 AM,Concreting,Injury,Eyes,Abrasion,"Slip, trip or fall on same level",0,10-03-17,10-03-17
+51,basement,No,Low,9-20-2017,9-20-2017,2:10:00 PM,Rebar Fixing,Illness,Torso,Sprain / Strain ,"Slip, trip or fall on same level",0,10-04-17,10-04-17
+52,basement,No,Low,9-28-2017,9-28-2017,2:15:00 PM,Installation of Building service utilities,Injury,Fingers / Thumbs,Cut / Laceration,Struck against a fixed or stationary object,0,10-11-17,9-28-2017
+53,basement,No,Low,10-04-17,10-04-17,1:40:00 PM,Installation of Building service utilities,Injury,Leg,Cut / Laceration,"Slip, trip or fall on same level",0,10-13-2017,10-05-17
+54,basement,No,Low,10-03-17,10-03-17,10:00:00 AM,Installation of Building service utilities,Injury,Fingers / Thumbs,Other,"Injured by carrying, handling or lifting",0,10-16-2017,10-03-17
+55,basement,No,Low,10-05-17,10-05-17,8:30:00 AM,Concreting,Injury,Eyes,Foreign Body,Exposed to dust ,0,10-17-2017,10-10-17
+56,basement,No,Medium,10-16-2017,10-16-2017,3:30:00 PM,Rebar Fixing,Injury,Eyes,Foreign Body,"Struck by a falling, flying or moving object",0,10-27-2017,10-26-2017
+57,basement,Yes,Medium,10-20-2017,10-20-2017,1:00:00 PM,Installation of Building service utilities,Category 1 / 2 Near Miss,Leg,Bruise / Contusion,"Struck by a falling, flying or moving object",0,11-02-17,10-31-2017
+58,basement,No,Low,10-24-2017,10-24-2017,2:00:00 PM,Installation of Building service utilities,Injury,Fingers / Thumbs,Cut / Laceration,"Injured by carrying, handling or lifting",0,11-09-17,10-27-2017
+59,basement,No,Low,10-25-2017,10-25-2017,3:30:00 PM,Installation of Building service utilities,Injury,Leg,Sprain / Strain ,"Injured by carrying, handling or lifting",0,11-11-17,10-27-2017
+60,basement,No,Low,10-26-2017,10-26-2017,9:30:00 AM,Concreting,Injury,Leg,Sprain / Strain ,"Slip, trip or fall on same level",0,11-12-17,11-12-17
+61,basement,No,Low,11-06-17,11-06-17,1:30:00 PM,Rebar Fixing,Category 1 / 2 Near Miss,Torso,Abrasion,"Slip, trip or fall on same level",0,11-17-2017,11-20-2017
+62,basement,No,Low,11-07-17,11-07-17,8:00:00 AM,Installation of Building service utilities,Injury,Head,Other,"Struck by a falling, flying or moving object",0,11-23-2017,11-09-17
+63,basement,No,Low,11-17-2017,11-17-2017,10:49:00 AM,Rebar Fixing,Injury,Back / Buttocks,Sprain / Strain ,"Injured by carrying, handling or lifting",0,12-05-17,12-05-17
+64,basement,Yes,High,11-22-2017,11-22-2017,8:50:00 PM,Installation of Building service utilities,Injury,Foot / Ankle,Fracture ,Other,3,12-12-17,12-07-17
+65,basement,Yes,High,11-30-2017,11-30-2017,11:30:00 PM,Installation of Building service utilities,Injury,Leg,Fracture ,"Struck by a falling, flying or moving object",120,12-24-2017,12-19-2017
+66,basement,Yes,High,12-13-2017,12-13-2017,2:45:00 PM,Rebar Fixing,Injury,Foot / Ankle,Sprain / Strain ,"Struck by a falling, flying or moving object",7,12-29-2017,12-21-2017
+67,1st floor,No,Low,12-18-2017,12-18-2017,7:30:00 AM,Installation of Building service utilities,Injury,Back / Buttocks,Sprain / Strain ,"Slip, trip or fall on same level",1,01-01-18,12-19-2017
+68,basement,Yes,Low,12-18-2017,12-18-2017,1:15:00 PM,Rebar Fixing,Injury,Hand,Cut / Laceration,"Injured by carrying, handling or lifting",0,01-03-18,01-11-18
+69,basement,No,Low,1-15-2018,1-15-2018,12:20:00 PM,Installation of Building service utilities,Injury,Back / Buttocks,Burns (thermal/chemical),"Slip, trip or fall on same level",0,1-15-2018,2-22-2018
+70,basement,No,Low,1-22-2018,1-22-2018,9:00:00 AM,Painting,Injury,Back / Buttocks,Sprain / Strain ,"Injured by carrying, handling or lifting",0,1-18-2018,02-05-18
+71,basement,Yes,Low,1-23-2018,1-23-2018,1:15:00 PM,Installation of Building service utilities,Injury,Fingers / Thumbs,Cut / Laceration,Contact with moving machinery / power equipment,0,1-22-2018,2-19-2018
+72,basement,Yes,Low,1-22-2018,1-26-2018,7:30:00 AM,Concreting,Injury,Leg,Bruise / Contusion,Struck against a fixed or stationary object,0,1-29-2018,1-29-2018
+73,basement,Yes,Low,02-01-18,02-01-18,8:30:00 AM,Painting,Injury,Hand,Sprain / Strain ,"Slip, trip or fall on same level",0,02-04-18,02-02-18
+74,basement,Yes,Low,1-31-2018,1-31-2018,9:15:00 AM,Painting,Injury,Leg,Other,"Struck by a falling, flying or moving object",0,02-06-18,2-14-2018
+75,basement,Yes,Low,02-07-18,02-07-18,2:30:00 PM,Painting,Injury,Hand,Cut / Laceration,"Struck by a falling, flying or moving object",0,2-13-2018,02-07-18
+76,basement,Yes,Low,02-12-18,02-12-18,2:10:00 PM,Concreting,Injury,Leg,Other,"Slip, trip or fall on same level",1,2-26-2018,2-26-2018
+77,basement,Yes,Low,02-12-18,02-12-18,6:45:00 AM,Concreting,Injury,Torso,Bruise / Contusion,"Slip, trip or fall on same level",0,02-01-18,2-19-2018
+78,basement,Yes,Low,2-13-2018,2-13-2018,9:45:00 AM,Concreting,Injury,Arm,Sprain / Strain ,Other,1,2-24-2018,2-13-2018
+79,basement,No,Low,2-13-2018,2-13-2018,9:42:00 AM,Concreting,Injury,Eyes,Other,Exposed to dust ,0,2-25-2018,2-13-2018
+80,basement,Yes,Low,02-12-18,02-12-18,10:50:00 AM,Concreting,Injury,Hand,Bruise / Contusion,"Struck by a falling, flying or moving object",0,03-01-18,2-21-2018
+81,basement,Yes,Low,2-21-2018,2-21-2018,4:30:00 PM,Concreting,Injury,Fingers / Thumbs,Cut / Laceration,Struck against a fixed or stationary object,0,03-07-18,03-02-18
+82,basement,Yes,Low,2-22-2018,2-22-2018,9:55:00 AM,Concreting,Injury,Wrist,Other,"Slip, trip or fall on same level",0,03-02-18,3-15-2018
+83,basement,Yes,Low,2-23-2018,2-26-2018,1:00:00 PM,Concreting,Injury,Leg,Bruise / Contusion,"Slip, trip or fall on same level",0,03-12-18,03-02-18
+84,basement,Yes ,Low,2-26-2018,2-26-2018,6:15:00 PM,Concreting,Injury,Back / Buttocks,Other,"Slip, trip or fall on same level",0,03-12-18,03-05-18
+85,basement,Yes,Low,2-26-2018,2-26-2018,12:30:00 PM,Concreting,Injury,Back / Buttocks,Other,Other,4,2-27-2018,2-27-2018
+86,basement,Yes,Low,2-26-2018,2-26-2018,8:00:00 AM,Concreting,Injury,Eyes,Foreign Body,Exposed to dust ,4,03-12-18,3-15-2018
+87,basement,Yes,Low,2-23-2018,2-23-2018,1:50:00 PM,Concreting,Injury,Foot / Ankle,Other,"Slip, trip or fall on same level",0,03-09-18,3-15-2018
+88,basement,Yes,Low,03-06-18,03-07-18,9:15:00 AM,Concreting,Injury,Back / Buttocks,Sprain / Strain ,Other,0,03-12-18,3-13-2018
+89,basement,No,Low,03-09-18,03-09-18,3:10:00 PM,Concreting,Injury,Leg,Bruise / Contusion,"Slip, trip or fall on same level",0,3-23-2018,03-12-18
+90,basement,No,Low,3-13-2018,3-13-2018,9:30:00 AM,Concreting,Injury,Hand,Trauma ,"Injured by carrying, handling or lifting",0,3-13-2018,3-13-2018
+91,basement,Yes,Low,3-13-2018,3-13-2018,1:30:00 PM,Concreting,Injury,Arm,Trauma ,"Injured by carrying, handling or lifting",0,3-27-2018,3-15-2018
+92,basement,Yes ,Low,3-14-2018,3-14-2018,3:30:00 PM,Concreting,Injury,Head,Bruise / Contusion,"Slip, trip or fall on same level",0,3-28-2018,3-27-2018
+93,basement,Yes,High,03-12-18,03-12-18,1:50:00 PM,Concreting,Fatal,Torso,Bruise / Contusion,Other,6,3-30-2018,3-23-2018
+94,basement,No,Low,3-16-2018,3-16-2018,8:20:00 AM,Concreting,Injury,Fingers / Thumbs,Foreign Body,Other,0,3-19-2018,3-19-2018
+95,basement,No,Low,3-22-2018,3-23-2018,8:30:00 AM,Concreting,Injury,Eyes,Foreign Body,Exposed to dust ,0,3-23-2018,3-23-2018
+96,basement,No,Low,3-23-2018,3-23-2018,9:30:00 AM,Concreting,Injury,Arm,Bruise / Contusion,Fall from height,0,04-06-18,04-06-18
+97,basement,No,Low,04-03-18,4-23-2018,8:00:00 AM,Concreting,Injury,Back / Buttocks,Other,Other,0,04-04-18,04-04-18
+98,basement,Yes,Low,05-09-18,05-09-18,5:25:00 PM,Concreting,Injury,Fingers / Thumbs,Cut / Laceration,"Injured by carrying, handling or lifting",0,5-24-2018,5-15-2018
+99,basement,No,Low,05-10-18,05-10-18,11:30:00 AM,Concreting,Injury,Hand,Cut / Laceration,"Injured by carrying, handling or lifting",0,5-24-2018,5-24-2018
+100,basement,Yes,Low,5-15-2018,5-16-2018,2:00:00 PM,Concreting,Injury,Foot / Ankle,Bruise / Contusion,"Injured by carrying, handling or lifting",0,5-30-2018,06-06-18
+101,basement,No,Low,5-21-2018,5-21-2018,9:15:00 AM,Concreting,Injury,Fingers / Thumbs,Cut / Laceration,Other,0,06-04-18,5-24-2018
+102,basement,No,Low,5-21-2018,5-21-2018,11:00:00 AM,Concreting,Illness,Torso,Other,Other,0,06-04-18,5-29-2018
+103,basement,Yes,High,5-31-2018,5-31-2018,1:17:00 PM,Concreting,Loss/Damage/Theft,Neck,Sprain / Strain ,Other,0,05-12-18,6-25-2018
+104,basement,No,Low,5-31-2018,5-31-2018,3:00:00 PM,Concreting,Injury,Arm,Abrasion,"Slip, trip or fall on same level",0,06-04-18,06-04-18
+105,basement,Yes,Medium,06-04-18,06-04-18,4:03:00 PM,Concreting,Injury,Torso,Vehicle whiplash ,Other,6,6-19-2018,6-19-2018
+106,basement,No,Low,06-05-18,06-05-18,4:20:00 PM,Concreting,Injury,Foot / Ankle,Sprain / Strain ,"Slip, trip or fall on same level",0,6-20-2018,06-12-18
+107,basement,Yes,Low,06-06-18,06-06-18,1:00:00 PM,Concreting,Injury,Fingers / Thumbs,Cut / Laceration,"Injured by carrying, handling or lifting",0,6-20-2018,6-22-2018
+108,basement,No,Low,6-19-2018,6-21-2018,6:45:00 AM,Concreting,Injury,Back / Buttocks,Sprain / Strain ,"Injured by carrying, handling or lifting",0,07-05-18,6-25-2018
+109,basement,Yes,Low,6-27-2018,6-27-2018,12:55:00 AM,Concreting,Injury,Eyes,Foreign Body,Other,0,07-06-18,07-10-18
+110,basement,No,Medium,07-10-18,07-10-18,1:30:00 PM,Concreting,Injury,Back / Buttocks,Bruise / Contusion,"Slip, trip or fall on same level",1,7-24-2018,8-31-2018
+111,basement,No,Low,7-23-2018,7-23-2018,9:20:00 AM,Concreting,Injury,Hand,Cut / Laceration,Other,0,08-06-18,8-14-2018
+112,basement,Yes,Low,8-15-2018,8-16-2018,8:00:00 AM,Concreting,Injury,Back / Buttocks,Sprain / Strain ,"Injured by carrying, handling or lifting",4,8-31-2018,8-23-2018
+113,basement,Yes,Low,8-18-2018,8-20-2018,12:10:00 PM,Concreting,Injury,Fingers / Thumbs,Other,Other,0,10-15-2018,8-29-2018
+114,basement,Yes,Low,09-06-18,09-07-18,5:30:00 PM,Concreting,Injury,Fingers / Thumbs,Cut / Laceration,"Injured by carrying, handling or lifting",0,3-14-2019,09-07-18
+115,basement,No,Low,9-20-2018,9-20-2018,9:30:00 AM,Concreting,Injury,Torso,Other,"Slip, trip or fall on same level",0,10-04-18,10-04-18
+116,basement,Yes,Low,9-26-2018,9-26-2018,4:00:00 PM,Concreting,Injury,Torso,Bruise / Contusion,Other,0,10-09-18,10-09-18
+117,basement,Yes,Low,10-02-18,10-02-18,11:25:00 AM,Concreting,Injury,Fingers / Thumbs,Cut / Laceration,"Injured by carrying, handling or lifting",0,10-16-2018,10-12-18
+118,basement,Yes,Low,10-16-2018,10-18-2018,3:30:00 PM,Concreting,Injury,Back / Buttocks,Sprain / Strain ,Fall from height,0,7-30-2019,7-30-2019
+119,1st floor,Yes,Low,10-18-2018,10-18-2018,9:30:00 AM,Concreting,Injury,Leg,Sprain / Strain ,"Slip, trip or fall on same level",0,7-30-2019,7-30-2019
+120,1st floor,Yes,Medium,11-02-18,11-02-18,10:15:00 AM,Concreting,Injury,Head,Head,"Slip, trip or fall on same level",0,11-16-2018,11-13-2018
+121,1st floor,No,Low,11-09-18,11-12-18,3:00:00 PM,Concreting,Injury,Eyes,Foreign Body,Exposed to dust ,0,11-26-2018,11-23-2018
+122,1st floor,Yes,Low,12-03-18,12-03-18,10:00:00 AM,Concreting,Injury,Leg,Bruise / Contusion,"Slip, trip or fall on same level",0,12-17-2018,12-17-2018
+123,1st floor,Yes,Low,12-17-2018,12-17-2018,10:05:00 AM,Concreting,Injury,Eyes,Cut / Laceration,"Injured by carrying, handling or lifting",0,12-31-2018,12-19-2018
+124,1st floor,No,Low,12-24-2018,01-02-19,3:00:00 PM,Concreting,Injury,Foot / Ankle,Sprain / Strain ,"Slip, trip or fall on same level",0,01-08-19,01-08-19
+125,1st floor,Yes,Low,01-09-19,01-09-19,10:30:00 AM,Concreting,Injury,Fingers / Thumbs,Cut / Laceration,Other,0,1-26-2019,1-15-2019
+126,1st floor,Yes,Medium,3-20-2019,3-21-2019,10:25:00 AM,Concreting,Injury,Head,Cut / Laceration,Fall from height,0,03-04-19,3-28-2019
+127,1st floor,No,Low,4-16-2019,4-17-2019,4:51:00 PM,Concreting,Injury,Leg,Bruise / Contusion,Struck against a fixed or stationary object,0,4-17-2019,4-17-2019
+128,1st floor,No,Low,6-25-2019,6-26-2019,3:30:00 PM,Concreting,Injury,Hand,Fracture ,"Injured by carrying, handling or lifting",0,07-09-19,07-09-19
+129,1st floor,Yes,High,7-13-2019,7-13-2019,12:58:00 PM,Concreting,Injury,Leg,Fracture ,"Struck by a falling, flying or moving object",42,7-27-2019,7-22-2019
+130,1st floor,No,Low,07-08-19,7-17-2019,2:30:00 PM,Concreting,Injury,Torso,Bruise / Contusion,Struck against a fixed or stationary object,0,7-22-2019,7-17-2019
+131,1st floor,Yes,Low,09-04-19,09-04-19,5:30:00 PM,Concreting,Injury,Arm,Bruise / Contusion,Contact with moving machinery / power equipment,0,09-09-19,09-09-19
+132,1st floor,Yes,Low,09-12-19,09-12-19,8:30:00 AM,Concreting,Injury,Fingers / Thumbs,Abrasion,Contact with moving machinery / power equipment,0,9-24-2019,9-24-2019
+133,1st floor,Yes,Medium,09-02-19,9-20-2019,5:30:00 PM,Concreting,Injury,Hand,Cut / Laceration,"Injured by carrying, handling or lifting",0,10-04-19,9-30-2019
+134,1st floor,Yes,Low,10-28-2019,10-28-2019,12:30:00 PM,Concreting,Injury,Arm,Sprain / Strain ,"Injured by carrying, handling or lifting",0,11-11-19,11-04-19
+135,1st floor,Yes,Medium,11-15-2019,11-15-2019,11:00:00 AM,Concreting,Injury,Foot / Ankle,Sprain / Strain ,"Struck by a falling, flying or moving object",0,11-22-2019,11-22-2019
+136,1st floor,Yes,Low,12-05-19,12-05-19,9:00:00 AM,Concreting,Injury,Leg,Cut / Laceration,Contact with moving machinery / power equipment,0,12-19-2019,01-07-20
+137,1st floor,Yes,Medium,12-18-2019,12-18-2019,11:00:00 PM,Concreting,Injury,Back / Buttocks,Sprain / Strain ,"Injured by carrying, handling or lifting",1,01-12-20,1-16-2020
+138,1st floor,Yes,Medium,1-23-2020,1-24-2020,8:00:00 PM,Concreting,Injury,Foot / Ankle,Sprain / Strain ,"Slip, trip or fall on same level",1,02-07-20,02-07-20
+139,1st floor,No,Low,02-06-20,02-06-20,2:00:00 PM,Concreting,Injury,Hand,Bruise / Contusion,"Struck by a falling, flying or moving object",1,2-15-2020,02-10-20
