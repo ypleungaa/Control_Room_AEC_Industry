@@ -5,6 +5,5 @@
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
     "azureFunctions.preDeployTask": "npm prune",
-    "appService.defaultWebAppToDeploy": "/subscriptions/ffb2f940-64f5-4d94-806f-44e728bc9bee/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/rpiendpoint",
     "appService.deploySubpath": "Code\\Sensor\\Azure\\endpoint"
 }
