@@ -44,7 +44,7 @@ def iothub_client_telemetry_sample_run():
             message = Message(msg_txt_formatted)
 
             # Add a custom application property to the message.
-            # An IoT hub can filter on these properties without access to the message body.
+            # Displaying the temperature and humidity data
             message.custom_properties["temperature"] = temperature
             message.custom_properties["humidity"] = humidity
 

@@ -1,4 +1,5 @@
-CREATE TABLE table5 (
+-- Create table for the safety dataset in SQL Server
+CREATE TABLE safety (
     id int,
     location varchar(255),
     investigation varchar(255),
