@@ -12,7 +12,7 @@
             "env": {
                 "FORGE_CLIENT_ID": "PCIt39nRiblumBYmnSziTjMW9IfxTTF1",
                 "FORGE_CLIENT_SECRET": "UajOIdN2wD7ScOxk",
-                "FORGE_CALLBACK_URL": "https://casa-forge-project-app.azurewebsites.net/api/forge/callback/oauth"
+                "FORGE_CALLBACK_URL": "https://forge-viewer.azurewebsites.net/api/forge/callback/oauth"
             }
         },
         {
