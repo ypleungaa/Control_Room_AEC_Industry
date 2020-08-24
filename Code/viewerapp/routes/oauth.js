@@ -16,7 +16,7 @@ router.get('/callback/oauth', async (req, res, next) => {
     }
 });
 
-router.get('/oauth/url', (req, res) => {
+router.get('https://forge-viewer.azurewebsites.net/api/forge/callback/oauth/url', (req, res) => {
     const url =
         'https://developer.api.autodesk.com' +
         '/authentication/v1/authorize?response_type=code' +
@@ -32,7 +32,7 @@ router.get('/oauth/signout', (req, res) => {
 });
 
 // Endpoint to return a 2-legged access token
-router.get('/oauth/token', async (req, res, next) => {
+router.get('https://forge-viewer.azurewebsites.net/api/forge/callback/oauth/token', async (req, res, next) => {
     const oauth = new OAuth(req.session);
     if (!oauth.isAuthorized()) {
         res.status(401).end();
